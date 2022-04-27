@@ -8,6 +8,22 @@ html {
   font-size: 62.5%;
 }
 
+.container {
+  width: 144rem;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
