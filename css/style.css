@@ -8,6 +8,13 @@ html {
   font-size: 62.5%;
 }
 
+p {
+  display: inline-block;
+  width: 30%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+}
+
 .container {
   width: 144rem;
   margin: 0 auto;
@@ -30,20 +37,24 @@ html {
   width: 6rem;
 }
 
-p {
-  display: inline;
+.title-header {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .btn {
-  background-color: #44c767;
-  border-radius: 28px;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2.8rem;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 15px;
-  padding: 16px 31px;
+  font-size: 1.5rem;
+  padding: 1.6rem 3.1rem;
   text-decoration: none;
+  width: 30%;
 }
 .btn:hover {
   background-color: #5cbf2a;
