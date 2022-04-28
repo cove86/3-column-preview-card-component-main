@@ -13,15 +13,17 @@ html {
   margin: 0 auto;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 50rem;
 }
 
-.grid-column {
+.flex-column {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-evenly;
 }
 
 .icon {
@@ -30,6 +32,25 @@ html {
 
 p {
   display: inline;
+}
+
+.btn {
+  background-color: #44c767;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 16px 31px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #5cbf2a;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
 }
 
 .attribution {
