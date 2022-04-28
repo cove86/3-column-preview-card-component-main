@@ -22,10 +22,13 @@ p {
 }
 
 .flex-container {
+  box-sizing: content-box;
   margin: 0 auto;
   display: flex;
   height: 40rem;
   width: 85rem;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .flex-column {
@@ -37,14 +40,17 @@ p {
 
 .sedan-column {
   background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
 }
 
 .suv-column {
   background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
 }
 
 .luxury-column {
   background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
 }
 
 .icon {
@@ -74,7 +80,8 @@ p {
 }
 .btn:hover {
   background-color: inherit;
-  border: 2px solid hsl(0, 0%, 95%);
+  box-shadow: 0 0 0 2px hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 }
 .btn:active {
   position: relative;
