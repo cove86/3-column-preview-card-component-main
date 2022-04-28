@@ -17,12 +17,11 @@ p {
 }
 
 .container {
-  width: 144rem;
+  width: 76rem;
   margin: 10rem auto;
 }
 
 .flex-container {
-  box-sizing: content-box;
   margin: 0 auto;
   display: flex;
   height: 40rem;
@@ -94,4 +93,29 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 73rem) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 120rem;
+    width: 35rem;
+  }
+
+  .icon {
+    margin-bottom: 4rem;
+  }
+
+  .title-header {
+    margin-bottom: 4rem;
+  }
+
+  .description {
+    margin-bottom: 4rem;
+  }
+
+  .btn {
+    margin-bottom: 4rem;
+  }
 }
